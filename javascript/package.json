@@ -6,6 +6,7 @@
 		"heroku-env": "^0.1.1",
 		"libpq": "1.8.9",
 		"lodash": "4.9.0",
+		"mattermost-cloudnative-bootstrapper": "^1.0.0",
 		"mongo-express": "0.47.0"
 	},
 	"devDependencies": {

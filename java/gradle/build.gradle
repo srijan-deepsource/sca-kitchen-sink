@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.vulnerable'
+version '1.0-SNAPSHOT'
+
+configurations {
+    compileClasspath {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
+    
+    implementation 'org.springframework:spring-core:5.3.17'
+    
+    implementation 'org.apache.struts:struts2-core:2.5.10'
+    
+    implementation 'org.hibernate:hibernate-core:5.4.2.Final'
+    
+    implementation 'commons-collections:commons-collections:3.2.1'
+    
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+}
+
+application {
+    mainClass = 'com.vulnerable.App'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+} 

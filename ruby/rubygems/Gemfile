@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'rack', '2.0.6'
+
+gem 'json', '2.1.0'
+
+gem 'sinatra', '2.0.0'
+
+gem 'i18n', '0.7.0'
+
+gem 'addressable', '2.4.0'
+
+gem 'yard', '0.9.11'
+
+gem 'activesupport', '5.2.4.3' 

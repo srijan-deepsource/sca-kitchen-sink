@@ -1,4 +1,4 @@
 from cryptography.fernet import Fernet
 
-def encrypt_key(key):
-    return Fernet(key)
+def get_key():
+    return Fernet.generate_key()

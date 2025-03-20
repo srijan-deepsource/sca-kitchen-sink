@@ -221,20 +221,20 @@ files = [
 
 [[package]]
 name = "jinja2"
-version = "2.10.1"
-description = "A small but fast and easy to use stand-alone template engine written in pure python."
+version = "3.1.4"
+description = "A very fast and expressive template engine."
 optional = false
-python-versions = "*"
+python-versions = ">=3.7"
 files = [
-    {file = "Jinja2-2.10.1-py2.py3-none-any.whl", hash = "sha256:14dd6caf1527abb21f08f86c784eac40853ba93edb79552aa1e4b8aef1b61c7b"},
-    {file = "Jinja2-2.10.1.tar.gz", hash = "sha256:065c4f02ebe7f7cf559e49ee5a95fb800a9e4528727aec6f24402a5374c65013"},
+    {file = "jinja2-3.1.4-py3-none-any.whl", hash = "sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"},
+    {file = "jinja2-3.1.4.tar.gz", hash = "sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369"},
 ]
 
 [package.dependencies]
-MarkupSafe = ">=0.23"
+MarkupSafe = ">=2.0"
 
 [package.extras]
-i18n = ["Babel (>=0.8)"]
+i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "markupsafe"
@@ -416,4 +416,4 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "9b15edef2ddf55807e81677c76a5f4587a6c64c6db81905017aa2c07caad7f9d"
+content-hash = "915059b783d48de4ad995f0f0f89a7ddfa461856be990df6f644f9582df62d0d"
